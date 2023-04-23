@@ -8,5 +8,5 @@ def update_traffic_lights(current):
 
 
     if __name__ == "__main__":
-        update_traffic_lights()
+        print(update_traffic_lights())
         
