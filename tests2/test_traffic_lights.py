@@ -9,4 +9,4 @@ def test_traffic_lights():
         assert update_traffic_lights(current) == "red"
     if current == "red":
         assert update_traffic_lights(current) == "green"
-    
+print(test_traffic_lights())
