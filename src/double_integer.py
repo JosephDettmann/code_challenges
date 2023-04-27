@@ -1,6 +1,5 @@
-def double_integer(i):
-    x = 2 * i
-    return x
+def double_integer(num):
+    return num * 2
 
 
 if __name__ == "__main__":
