@@ -1,5 +1,5 @@
 def volume(len, wide, high):
-    return f"{len * wide * high} ft3"
+    return len * wide * high
 
 
 if __name__ == "__main__":
