@@ -8,4 +8,3 @@ def test_square_argument():
     assert square_argument(4) == 16
     assert square_argument(3) == 9
     assert square_argument(2) == 4
-    assert square_argument(2) != 2342342
