@@ -1,15 +1,6 @@
 def complementary_dna(dna):
-    comp_dna = ""
-    for char in dna:
-        if char == "C":
-            comp_dna = comp_dna + "G"
-        elif char == "T":
-            comp_dna = comp_dna + "A"
-        elif char == "G":
-            comp_dna = comp_dna + "C"
-        elif char == "A":
-            comp_dna = comp_dna + "T"
-    return comp_dna
+    trans_map = {"A": "T", "T": "A", "C": "G", "G": "C"}
+    return "".join([trans_map[x] for x in dna])
 
 
 if __name__ == "__main__":
