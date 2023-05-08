@@ -1,5 +1,5 @@
-def rm_spaces(str):
-    return str.replace(" ", "")
+def rm_spaces(wrd):
+    return wrd.replace(" ", "")
 
 
 if __name__ == "__main__":
