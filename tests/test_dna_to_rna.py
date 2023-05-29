@@ -1,6 +1,6 @@
-from src.dna_to_rna import DNAtoRNA
+from src.dna_to_rna import dna_to_rna
 
 
 def test_dna_to_rna():
-    assert DNAtoRNA("ATAT") == "AUAU"
-    assert DNAtoRNA("GCACGT") == "GCACGU"
+    assert dna_to_rna("ATAT") == "AUAU"
+    assert dna_to_rna("GCACGT") == "GCACGU"
