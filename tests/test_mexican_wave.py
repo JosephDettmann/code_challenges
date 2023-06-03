@@ -26,3 +26,16 @@ def test_wave():
         "sempiternaL",
     ]
     assert wave("cheat") == ["Cheat", "cHeat", "chEat", "cheAt", "cheaT"]
+    assert wave("MeXiCaN wAvE") == [
+        "Mexican wave",
+        "mExican wave",
+        "meXican wave",
+        "mexIcan wave",
+        "mexiCan wave",
+        "mexicAn wave",
+        "mexicaN wave",
+        "mexican Wave",
+        "mexican wAve",
+        "mexican waVe",
+        "mexican wavE",
+    ]

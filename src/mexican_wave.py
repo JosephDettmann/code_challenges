@@ -1,5 +1,5 @@
 def wave(string):
-    string.casefold()
+    string = string.casefold()
     result = []
     for i, char in enumerate(string):
         if char == " ":
