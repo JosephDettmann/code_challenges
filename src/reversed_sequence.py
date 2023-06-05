@@ -8,3 +8,6 @@ def reverse_sequence(n):
             solution.append(n - subtractor)
             subtractor += 1
     return solution
+
+if __name__ == "__main__":
+    print(reverse_sequence(2)
